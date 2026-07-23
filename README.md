@@ -2,6 +2,17 @@
 
 Este repositorio contiene el desarrollo de un modelo predictivo para evaluar el riesgo de impago en créditos de consumo utilizando el dataset `credit_risk_dataset.csv`. El enfoque principal fue construir un pipeline que maneje datos del mundo real y comparase el rendimiento de algoritmos de Bagging y Boosting para la toma de decisiones financieras.
 
+## Sobre el Conjunto de Datos (Dataset)
+
+Este proyecto utiliza el **[Credit Risk Dataset](https://www.kaggle.com/datasets/laotse/credit-risk-dataset/data)** disponible en Kaggle. 
+
+El dataset modela el comportamiento histórico de una cartera de créditos de consumo y contiene **32,581 registros** con **12 variables** distribuidas entre información socioeconómica del solicitante, características financieras de la operación e historial crediticio:
+
+* **Variable Objetivo:** `loan_status` (indicador de incumplimiento o impago).
+* **Variables de Solicitante:** `person_age`, `person_income`, `person_home_ownership`, `person_emp_length`.
+* **Variables del Crédito:** `loan_intent`, `loan_grade`, `loan_amnt`, `loan_int_rate`, `loan_percent_income`.
+* **Historial Crediticio:** `cb_person_default_on_file`, `cb_person_cred_hist_length`.
+
 ##  Contexto y Aplicación Operativa
 En operaciones de atención al cliente y gestión de cartera como entornos BPO/CRM, anticipar el impago permite:
 * **Segmentar carteras de cobranza:** Priorizar esfuerzos de contacto y canales de comunicación en el contact center según el nivel de riesgo del cliente.
